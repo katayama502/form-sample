@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>書類提出フォーム</title>
+</head>
+    <h1>書類提出フォーム</h1>
+    <form method="post">
+        <div class="form-group">
+            <div>
+                <label for="view_name">ユーザー名</label>
+                <input id="view_name" type="text" name="view_name" placeholder="テック太郎" value="">
+            </div>
+            <div>
+                <label for="emaile">メールアドレス</label>
+                <input id="emaile" type="text" name="emaile" placeholder="sample@gmail.com" value="">
+            </div>
+            <div>
+                <label for="file_UP">提出ファイル選択</label>
+                <input id="file_UP" type="text" name="file_UP" value="">
+            </div>
+            <div>
+                <label for="select_p">提出内容選択</label>
+                <select id="select_p" name="select_p" >
+                    <option value="group1">〜</option>
+                </select>
+            </div>
+            <input type="submit" name="btn_submit" class="button" value="送信">
+        </div>
+    </form>
+</body>
+</html>
